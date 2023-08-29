@@ -1,0 +1,21 @@
+{
+    "skills": {
+        "Front-end": "Html / Css / Js / Ts / Scss",
+        "Framework": "React / NextJs",
+        "Library": "JQuery / Bootstrap / Tailwind",
+        "React Library": "Mobx / Redux / MaterialUI / ShadCN",
+        "Back-end": "NodeJS / Express / Nginx / GraphQL",
+        "Else": "Git / Linux / GCP部署 / VBA"
+    },
+    "badges": [
+        "https://img.shields.io/badge/React.JS-gray?style=flat&logo=React&color=rgb(32%2C%2035%2C%2043)",
+        "https://img.shields.io/badge/Typescript-gray?style=flat&logo=Typescript&color=rgb(32%2C%2035%2C%2043)",
+        "https://img.shields.io/badge/Next.JS-gray?style=flat&logo=Next.js&color=rgb(32%2C%2035%2C%2043)",
+        "https://img.shields.io/badge/GraphQL-gray?style=flat&logo=GraphQL&logoColor=rgb(245, 0, 152)&color=rgb(32%2C%2035%2C%2043)",
+        "https://img.shields.io/badge/Node.JS-gray?style=flat&logo=Node.js&color=rgb(32%2C%2035%2C%2043)",
+        "https://img.shields.io/badge/Express-gray?style=flat&logo=Express&logoColor=rgb(39, 209, 244)&color=rgb(32%2C%2035%2C%2043)",
+        "https://img.shields.io/badge/Tailwind-gray?style=flat&logo=Tailwindcss&color=rgb(32%2C%2035%2C%2043)",
+        "https://img.shields.io/badge/Bootstrap-gray?style=flat&logo=Bootstrap&color=rgb(32%2C%2035%2C%2043)",
+        "https://img.shields.io/badge/MaterialUI-gray?style=flat&logo=MUI&logoColor=rgb(39, 209, 244)&color=rgb(32%2C%2035%2C%2043)"
+    ]
+}

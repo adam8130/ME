@@ -1,0 +1,53 @@
+{
+    "common": {
+        "About": "About",
+        "Skills": "Skills",
+        "Portfolio": "Portfolio",
+        "Experience": "Experience",
+        "PPT": "PPT",
+        "Settings": "Settings",
+        "Languages": "Languages"
+    },
+    "about": {
+        "me": "Hi, I'm Adam.",
+        "field": [
+            " - In the front-end, I primarily use React, NextJS, and TypeScript to build applications. ",   
+            " - On the backend, I mainly work with Node.JS, Express, and GraphQL to handle application deployment, process, and respond to requests. ",
+            " - I have collaborated with multiple team members on large-scale projects and have experience in full-stack remote development. I'm also capable of independently handling development tasks. ",
+            " - I collaborate effectively with UI designers and backend developers, translating Figma designs into web pages and integrating them with specified APIs."
+        ]
+    },
+    "skills": {
+        "introduce": "I am a developer with a preference for Functional Programming. I enjoy using technologies such as React, NextJS, TypeScript, and GraphQL to build modular and scalable web applications. I love solving problems through coding and hope to learn more in my job, applying what I've learned to my work, and thereby enhancing my capabilities."
+    },
+    "experince": {
+        "introduce": "I mainly worked with technologies like Bootstrap, JQuery, React, and Next.js in my past experiences. Within the team, I'm familiar with the Scrum Flow, and I've hands-on experience with tools like Git Flow and Code Reviews. While I still have more to learn in the frontend domain, I can confidently handle solo projects and am eager to learn from both the company and my seniors. I look forward to contributing more in my next role and crafting better applications.",
+        "fields": [
+            
+        ]
+    },
+    "Taiwan": "Taiwan",
+    "New Taipei": "New Taipei",
+    "Age": "Age",
+    "Job": "Job",
+    "Remote work accepted": "Remote work accepted",
+    "Contact": "Contact",
+    "10AMto10PM": "10AM - 10PM",
+    "Area": "Area",
+    "Address": "Address",
+    "Front-end": "Front-end",
+    "Framework": "Framework",
+    "Library": "Library",
+    "React Library": "React Library",
+    "Back-end": "Back-end",
+    "Else": "Else",
+    "Click here to change language": "Click here to change language",
+    "Click here to watch automatic slide show": "這裡可以觀賞自動投影片",
+    "portfolio": {
+        "AdaliaShopDescription": "This is a shopping site project I built using Next.js. It primarily leverages GraphQL for querying, paired with Mobx for state management. The interface is designed with Material UI, and it runs on a custom Express server.",
+        "CCTVDescription": "presents the data using Google Maps. Users can search for target locations based on regions and keywords and view available CCTV footage in the vicinity. Additional features include a night mode, real-time image zooming, and drag-and-drop capabilities.",
+        "OriginalFilmDescription": "This is a project solely based on website slicing, with a design incorporating full-screen iframe videos.",
+        "InventorySystemDescription": "This app built with Node, designed to query local Excel data and return it to the frontend website. Node is set up to use polling for update Excel data uploaded from VBA. The frontend app utilizes device cameras to scan barcodes, returning product status and inventory across stores.",
+        "LineTreeDescription": "This is a custom personal Link Tree website built with Express and the EJS template engine. It allows users to create accounts based on subdomains and provides a simple backend for users to update their data."
+    }
+}

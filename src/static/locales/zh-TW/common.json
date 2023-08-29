@@ -1,0 +1,50 @@
+{
+    "common": {
+        "About": "關於我",
+        "Skills": "技能",
+        "Portfolio": "作品集",
+        "Experience": "工作經驗",
+        "PPT": "投影片",
+        "Settings": "設定",
+        "Languages": "語言"
+    },
+    "about": {
+        "me": "Hi 我是 Adam。",
+        "field": [
+            " - 前端領域主要使用 React、NextJS、TypeScript 來構建應用程序。",
+            " - 後端主要以 Node.JS、Express、GraphQL 來實現基本的應用部署、處理、返回請求。",
+            " - 有多人合作開發大型專案，以及全遠端開發的工作經驗，能獨立完成開發工作。",
+            " - 可以很好配合UI設計師，後端工程師，依照Figma、Api規格實作頁面。"
+        ]  
+    },
+    "skills": {
+        "introduce": "我是一位傾向 Functional-Programming 的開發者。喜歡使用 React、NextJS、TypeScript、GraphQL 等技術來構建一個模組化, 有良好擴展性的網頁應用程式。我喜歡用程式來解決問題, 期望能夠在工作中學習到更多, 並應用在工作上, 進而提升自己的能力。"
+    },
+    "experince": {
+        "introduce": "在之前的工作開發中大部分使用的技術為 Bootstrap、JQuery、React、Next 等。在團隊開發中我熟悉 Scrum Flow，以及團隊開發中所需的工具、Git Flow、Code Review 等。目前在前端領域的工作經驗還不多，但能獨立完成開發，也很願意向公司、前輩們學習。期待能在下一個工作環境中學習到更多，並為打造更好的應用，貢獻自己的力量。"
+    },
+    "Taiwan": "台灣",
+    "New Taipei": "新北市",
+    "Age": "年齡",
+    "Job": "工作",
+    "Remote work accepted": "可遠端",
+    "Contact": "聯絡時間",
+    "10AMto10PM": "10AM - 10PM",
+    "Area": "地區",
+    "Address": "地址",
+    "Front-end": "前端",
+    "Framework": "前端框架",
+    "Library": "Library",
+    "React Library": "Reacct Library",
+    "Back-end": "後端",
+    "Else": "其他",
+    "Click here to change language": "這裡可以切換語言",
+    "Click here to watch automatic slide show": "這裡可以播放自動投影片",
+    "portfolio": {
+        "AdaliaShopDescription": "這是一個使用NextJS構建的購物網站作品，主要用使用GraphQL查詢，搭配Mobx做狀態管理，MateriaUl實作介面，自定義Express服務器等。",
+        "CCTVDescription": "這是一個串接全台灣公開CCTV API， 並使用Google Map來呈現的Single Page Application， 可以依照地區以及關鍵字來搜尋目標地點， 並觀看周圍可使用的CCTV影像， 另外加入夜色模式， 即時影像縮放， 拖拽等功能。",
+        "OriginalFilmDescription": "這是一個參考網站，純切版製作的作品，使用滿版iframe影片設計。",
+        "InventorySystemDescription": "這是一個使用Node構建的用於查詢本地Excel資料並返回給前端網站的應用，Node設置輪詢讀用於捕捉，以及即時更新來自VBA更新上去的Excel資料，網站前端使用設備相機掃描商品barcode條碼，並返回該商品狀態及各店庫存等。",
+        "LineTreeDescription": "這是一個使用Express、EJS模板引擎構建的，可以基於子域名創建用戶的，併提供簡易用戶的後台更新數據的，客製化個人Link Tree網站。"
+    }
+}

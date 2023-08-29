@@ -1,0 +1,13 @@
+{
+    "name": "Adam Chen",
+    "title": "Front-end Developer",
+    "email": "zzdx12345@gmail.com",
+    "phone": "+886972292785",
+    "github": "https://github.com/adam8130",
+    "info": { 
+        "Age": "26",
+        "Area": "New Taipei",
+        "Job": "Remote work accepted",
+        "Contact": "10AMto10PM"
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "portfolio": [
+                { 
+            "name": "Adalia Shop",
+            "description": "AdaliaShopDescription",
+            "images": [
+                { "file": "AdaliaShop-01.png", "size": "100%%" }
+            ],
+            "badges": [
+                { "label": "Next.JS", "logo": "Next.JS" },
+                { "label": "TypeScript", "logo": "TypeScript" },
+                { "label": "GraphQL", "logo": "GraphQL" },
+                { "label": "Express", "logo": "Express" },
+                { "label": "Mobx", "logo": "Mobx" },
+                { "label": "MateriaUI", "logo": "MUI" },
+                { "label": "Tailwind", "logo": "TailwindCss" }
+            ],
+            "github": "https://github.com/adam8130/Adalia-Shop",
+            "website": "https://shop.adalia.pp.ua"
+        },
+        { 
+            "name": "CCTVS Map",
+            "description": "CCTVDescription",
+            "images": [
+                { "file": "CCTVS-01.png", "size": "100%" }
+            ],
+            "badges": [
+                { "label": "React", "logo": "React" },
+                { "label": "Mobx", "logo": "Mobx" },
+                { "label": "Node.JS", "logo": "Node.JS" },
+                { "label": "MateriaUI", "logo": "MUI" }
+            ],
+            "github": "https://github.com/adam8130/CCTVS",
+            "website": "https://adam8130.github.io/CCTVS"
+        },
+        { 
+            "name": "Original Film",
+            "description": "OriginalFilmDescription",
+            "images": [
+                { "file": "OriginalFilm-01.png", "size": "100%" }
+            ],
+            "badges": [
+                { "label": "Html5", "logo": "Html5" },
+                { "label": "Bootstrap5", "logo": "Bootstrap" },
+                { "label": "Scss", "logo": "Sass" },
+                { "label": "JQuery", "logo": "JQuery" }
+            ],
+            "github": "https://github.com/adam8130/Original-Film",
+            "website": "https://adam8130.github.io/Original-Film"
+        },
+        { 
+            "name": "Inventory System",
+            "description": "InventorySystemDescription",
+            "images": [
+                { "file": "Inventory-01.jpg", "size": "40%" },
+                { "file": "Inventory-02.jpg", "size": "40%" }
+            ],
+            "badges": [
+                { "label": "Html5", "logo": "Html5" },
+                { "label": "Css", "logo": "Css3" },
+                { "label": "JavaScript", "logo": "JavaScript" },
+                { "label": "NodeJS", "logo": "Node.JS" }
+            ],
+            "github": "https://github.com/adam8130/Inventory-System",
+            "website": ""
+        },
+        { 
+            "name": "Link Tree",
+            "description": "LineTreeDescription",
+            "images": [
+                { "file": "LinkTree-01.png", "size": "35%" },
+                { "file": "LinkTree-02.png", "size": "35%" }
+            ],
+            "badges": [
+                { "label": "Embedded.JS", "logo": "Express" },
+                { "label": "JQuery", "logo": "JQuery" },
+                { "label": "Bootstrap5", "logo": "Bootstrap" },
+                { "label": "Nginx", "logo": "Nginx" },
+                { "label": "Express", "logo": "Express" }
+            ],
+            "github": "",
+            "website": "https://ninaoo.adalia.pp.ua"
+        }
+    ]
+}
