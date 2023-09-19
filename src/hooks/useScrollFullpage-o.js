@@ -1,11 +1,21 @@
 import { useRef, useState, useEffect } from 'react';
 
-export function useScrollFullpage() {
+// throttle function
+function throttle(callback, delay) {
+  let lastTime = 0;
+  return function (...arg) {
+    const now = new Date().getTime();
+    if (now - lastTime > delay) {
+      callback.apply(this, arg);
+      lastTime = now;
+    }
+  };
+}
 
+export function useScrollFullpage() {
   const ref = useRef(null);
-  const _currentPage = useRef(0)
-  const isScrolling = useRef(false);
   const [currentPage, setCurrentPage] = useState(0);
+  const _currentPage = useRef(0)
 
   useEffect(() => {
     if (!ref.current) return;
@@ -15,7 +25,6 @@ export function useScrollFullpage() {
     const parentPaddingTop = parseInt(getComputedStyle(parentNode).getPropertyValue("padding-top"));
 
     const scrollAnimationFrame = (targetPosition, speed) => {
-
       const scrollAnimate = () => {
         const diff = targetPosition - parentNode.scrollTop;
         if (Math.abs(diff) <= speed) {
@@ -28,46 +37,26 @@ export function useScrollFullpage() {
       requestAnimationFrame(scrollAnimate);
     };
 
-    const wheelEndAnimationFrame = () => {
-      let lastScrollTime = Date.now();
-
-      const wheelEndAnimate = () => {
-        const currentTime = Date.now();
-        if (lastScrollTime && (currentTime - lastScrollTime > 1300)) {
-          cancelAnimationFrame(wheelEndAnimate);
-          isScrolling.current = false;
-          return;
-        }
-        requestAnimationFrame(wheelEndAnimate);
-      }
-      requestAnimationFrame(wheelEndAnimate);
-    }
-
-    const scrollFullpage = (e) => {
+    const throttledScrollFullpage = throttle((e) => {
       e.preventDefault();
-
-      if (isScrolling.current) return;
-      isScrolling.current = true;
-
       if (e.deltaY > 0 && _currentPage.current < totalPages.length - 1) {
-        _currentPage.current++
+        _currentPage.current++;
         setCurrentPage(_currentPage.current)
       }
       if (e.deltaY < 0 && _currentPage.current > 0) {
-        _currentPage.current--
+        _currentPage.current--;
         setCurrentPage(_currentPage.current)
       }
 
       const targetPosition = totalPages[_currentPage.current].offsetTop - parentPaddingTop;
-      scrollAnimationFrame(targetPosition, 35)
-      wheelEndAnimationFrame()
-    }
+      scrollAnimationFrame(targetPosition, 20)
+    }, 1000)
 
-    parentNode.addEventListener('wheel', scrollFullpage);
-    return () => {
-      parentNode.removeEventListener('wheel', scrollFullpage);
-    }
+
+    parentNode.addEventListener('wheel', throttledScrollFullpage, { passive: false });
+    return () => parentNode.removeEventListener('wheel', throttledScrollFullpage);
+
   }, []);
 
-  return { ref, currentPage }
+  return { ref, currentPage };
 }
