@@ -5,23 +5,23 @@
         "Portfolio": "作品集",
         "Experience": "工作經驗",
         "PPT": "投影片",
-        "Settings": "設定",
-        "Languages": "語言"
+        "English": "英文",
+        "Chinese": "中文"
     },
     "about": {
         "me": "Hi 我是 Adam。",
         "field": [
             " - 前端領域主要使用 React、NextJS、TypeScript 來構建應用程序。",
             " - 後端主要以 Node.JS、Express、GraphQL 來實現基本的應用部署、處理、返回請求。",
-            " - 有多人合作開發大型專案，以及全遠端開發的工作經驗，能獨立完成開發工作。",
-            " - 可以很好配合UI設計師，後端工程師，依照Figma、Api規格實作頁面。"
+            " - 有多人合作, 全遠端, 開發大型專案經驗，能獨立完成開發工作。",
+            " - 配合UI設計師，後端工程師，依照Figma、Api規格實作頁面。"
         ]  
     },
     "skills": {
-        "introduce": "我是一位傾向 Functional-Programming 的開發者。喜歡使用 React、NextJS、TypeScript、GraphQL 等技術來構建一個模組化, 有良好擴展性的網頁應用程式。我喜歡用程式來解決問題, 期望能夠在工作中學習到更多, 並應用在工作上, 進而提升自己的能力。"
+        "introduce": "我主要使用 React、NextJS、NodeJS、TypeScript 等技術來構建網頁應用程序。熟悉理解及會使用Node做後端，完成前後端的串連。實作過多個專案包括官網前台, 後台, 區塊練市集交易等專案。"
     },
     "experince": {
-        "introduce": "在之前的工作開發中大部分使用的技術為 Bootstrap、JQuery、React、Next 等。在團隊開發中我熟悉 Scrum Flow，以及團隊開發中所需的工具、Git Flow、Code Review 等。目前在前端領域的工作經驗還不多，但能獨立完成開發，也很願意向公司、前輩們學習。期待能在下一個工作環境中學習到更多，並為打造更好的應用，貢獻自己的力量。"
+        "introduce": "在前團隊中都是使用 React、NextJS、Typescript 等前端技術。在團隊開發中我熟悉 Scrum Flow。 - 在寶沛靴期間維護布布童鞋及工作鞋官網。 - 在文心診所為長期接案，主要維護文心極致美型官網以及功能改版等。 - 在奇策智能期間為Crypto-Arsenal交易策略平台的開發及維護。 - 在禾宥期間負責Rise-of-elves區塊練遊戲官網, 後台的開發及維護。"
     },
     "Taiwan": "台灣",
     "New Taipei": "新北市",

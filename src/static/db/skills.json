@@ -3,7 +3,7 @@
         "Front-end": "Html / Css / Js / Ts / Scss",
         "Framework": "React / NextJs",
         "Library": "JQuery / Bootstrap / Tailwind",
-        "React Library": "Mobx / Redux / MaterialUI / ShadCN",
+        "React Library": "Zustand / Mobx / Redux / MaterialUI / ShadCN",
         "Back-end": "NodeJS / Express / Nginx / GraphQL",
         "Else": "Git / Linux / GCP部署 / VBA"
     },

@@ -13,7 +13,6 @@ export default function Sidebar({
 }) {
 
   const { t } = useTranslation();
-  const [settingMenu, setSettingMenu] = useState(false);
   const [isENLng, setIsENLng] = useState(i18n.language === 'en');
 
   const { ref: settingsRef, Tooltip: SettingsTooltip } = useTooltip(t('Click here to change language'), { 
@@ -53,12 +52,6 @@ export default function Sidebar({
       label: t('common.PPT'),
       icon: Projector,
       function: () => setActiveItem(4)
-    },
-    {
-      index: 5,
-      label: t('common.Settings'),
-      icon: Settings,
-      function: () => setSettingMenu(!settingMenu)
     },
   ]
 
@@ -117,47 +110,31 @@ export default function Sidebar({
           {idx === 5 && SettingsTooltip}
         </motion.div>
       )}
-      {
-        settingMenu &&
-        <motion.div
-          className="w-full flex flex-col h-max rounded-lg bg-white"
-          initial={{ opacity: 0, y: '-40px' }}
-          animate={{ opacity: 1, y: '0' }}
-          exit={{ opacity: 0, y: '-40px' }}
-        >
-          <motion.div
-            className={`
-              m-[10px]
-              text-center
-              flex
-              flex-col
-              items-center
-              gap-[5px]
-              p-[5px]
-              cursor-pointer
-              rounded-lg
-              transition
-              text-[12px]
-              font-light
-              border-b
-              ${isENLng && 'text-active'}
-            `}
-            whileHover={{
-              scale: 1.1,
-              boxShadow: '0px 0px 8px #60c6db',
-              transition: { duration: 0.1 },
-            }}
-            onClick={() => {
-              i18n.changeLanguage(!isENLng ? 'en' : 'zh');
-              setIsENLng(prev => !prev);
-              isMobile && setTabMenuVisible(false);
-            }}
-          >
-            <Globe className={'text-sky-500'} size={28} />
-            <span>{t('common.Languages')}</span>
-          </motion.div>
-        </motion.div>
-      }
+      <motion.div
+        className={`
+          flex flex-col items-center
+          m-[10px] gap-[5px] p-[5px]
+          text-[12px] font-light text-center
+          rounded-lg border-b transition
+          cursor-pointer
+          ${isENLng && 'text-active'}
+        `}
+        whileHover={{
+          scale: 1.1,
+          boxShadow: '0px 0px 8px #60c6db',
+          transition: { duration: 0.1 },
+        }}
+        onClick={() => {
+          i18n.changeLanguage(!isENLng ? 'en' : 'zh');
+          setIsENLng(prev => !prev);
+          isMobile && setTabMenuVisible(false);
+        }}
+      >
+        <Globe className={'text-sky-500'} size={28} />
+        <span>
+          {!isENLng ? t('common.English') : t('common.Chinese')}
+        </span>
+      </motion.div>
     </div>
   )
 }
