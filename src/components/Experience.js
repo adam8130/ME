@@ -8,8 +8,8 @@ export default function Experience() {
   const { t } = useTranslation();
   const isMobile = useMediaQuery('(max-width: 768px)');
   return (
-    <div className={`w-full h-full flex flex-col p-[10px] rounded-lg bg-white`}>
-      <div className="h-[50%]">
+    <div className={`w-full h-full flex flex-col p-[10px] rounded-lg bg-white overflow-y-auto`}>
+      <div>
         <motion.div
           className="p-[10px] text-[28px] border-b"
           initial={{ opacity: 0, x: '-40px' }}
@@ -20,15 +20,29 @@ export default function Experience() {
           <span>Experience</span>
         </motion.div>
         <div className="w-full p-[10px]">
-          {Object.entries(db.experience).map((item, idx) =>
+          {db.experience.map((item, idx) =>
             <div key={idx} className="w-full flex justify-between my-[15px]">
-              <div className="tracking-[2px]">{item[0]}</div>
-              <div className="tracking-[2px]">{item[1]}</div>
+              <div className="tracking-[2px] flex items-center gap-[6px]">
+                <span>{item.date}</span>
+                <span class="text-[12px] sm:text-[14px] text-[gray]">{item.period}</span>
+              </div>
+              <div className="tracking-[2px] flex flex-col items-end">
+                <div class="flex items-center gap-[8px]">
+                  <span class="text-[12px] sm:text-[14px] text-[gray]">{item.title}</span>
+                  <span>{item.company}</span>
+                </div>
+                <div 
+                  class="flex gap-[6px] items-center cursor-pointer" 
+                  onClick={() => window.open(item.product, '_blank')}
+                >
+                  <span class="text-[12px] sm:text-[14px] text-green-500">{item.productName}</span>
+                </div>
+              </div>
             </div>
           )}
         </div>
       </div>
-      <div className="h-[50%]">
+      <div className="h-[45%]">
         <motion.div
           className="p-[10px] text-[28px] border-b"
           initial={{ opacity: 0, x: '-40px' }}

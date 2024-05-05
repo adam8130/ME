@@ -3,10 +3,11 @@ import { motion, AnimatePresence, useAnimation } from 'framer-motion';
 import About from './About';
 import Skills from './Skills';
 import Portfolio from './Portfolio';
+import Experience from './Experience';
 
 export default function PPT() {
   const [portfolioRef, setPortfolioRef] = useState(null);
-  const components = [<About />, <Skills />, <Portfolio ref={(ref) => setPortfolioRef(ref)} />];
+  const components = [<About />, <Experience />, <Skills />, <Portfolio ref={(ref) => setPortfolioRef(ref)} />];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isStoppedPPT, setIsStoppedPPT] = useState(false);
   const controls = useAnimation();

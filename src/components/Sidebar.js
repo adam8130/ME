@@ -30,6 +30,12 @@ export default function Sidebar({
       function: () => setActiveItem(0)
     },
     {
+      index: 3,
+      label: t('common.Experience'),
+      icon: ScrollText,
+      function: () => setActiveItem(3)
+    },
+    {
       index: 1,
       label: t('common.Skills'),
       icon: Code2,
@@ -40,12 +46,6 @@ export default function Sidebar({
       label: t('common.Portfolio'),
       icon: BookOpen,
       function: () => setActiveItem(2)
-    },
-    {
-      index: 3,
-      label: t('common.Experience'),
-      icon: ScrollText,
-      function: () => setActiveItem(3)
     },
     {
       index: 4,

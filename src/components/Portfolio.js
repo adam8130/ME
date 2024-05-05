@@ -8,7 +8,7 @@ import db from '../static/db/portfolio.json';
 
 const Portfolio = forwardRef((_, rootRef) => {
   const isXsMobile = useMediaQuery('(max-width: 420px)');
-  const { ref } = useScrollFullpage();
+  // const { ref } = useScrollFullpage();
   const { t } = useTranslation();
 
   return (
@@ -17,7 +17,7 @@ const Portfolio = forwardRef((_, rootRef) => {
       className="w-full h-full"
     >
       <div
-        ref={ref}
+        // ref={ref}
         className={`
           w-full h-full
           rounded-lg bg-white
