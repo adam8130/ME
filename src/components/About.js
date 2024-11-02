@@ -101,28 +101,37 @@ export default function About() {
             <span>Me</span>
           </motion.div>
           <div className="p-[10px] font-light tracking-[0.8px] md:tracking-[1px]">
-            <div className="flex justify-around mt-[10px] mb-[20px]">
+            <div className="flex gap-14 mt-[10px] mb-[20px]">
               <img
-                className="h-[45vw] md:h-[40vw] md:hidden"
+                className="h-[65vw] md:h-[40vw] md:hidden"
                 src={require('../static/images/Me.jpg')}
                 alt=''
               />
               <ul className="text-center flex flex-col justify-around md:hidden">
                 <li>{db.name}</li>
-                <li>{db.title}</li>
-                <li>{db.email}</li>
-                <li
-                  className="cursor-pointer" 
-                  onClick={() => window.open(db.github, '_blank') }
-                >
-                  Github
+                <li>Front-end Dev</li>
+                <li className="cursor-pointer flex items-center gap-4" onClick={() => window.open(db.linkedin, '_blank') }>
+                  <Linkedin width={15} />
+                  <span>Linkedin</span>
+                </li>
+                <li className="cursor-pointer flex items-center gap-4" onClick={() => window.open(db.github, '_blank') }>
+                  <Github width={15} />
+                  <span>Github</span>
+                </li>
+                <li className="cursor-pointer flex items-center gap-4" onClick={() => window.open(db.email, '_blank') }>
+                  <Mail width={15} />
+                  <span>Email</span>
                 </li>
               </ul>
             </div>
-            {breakLinedText(t('about.me'))}
-            {fieldItems.map((item, idx) => 
-              textWithIndentSymbol(t(item), ' - ', idx)
-            )}
+            <p className='text-[16px] md:text-[18px] mb-4'>
+              {breakLinedText(t('about.me'))}
+            </p>
+            <p className='text-[13px] md:text-[16px]'>
+              {fieldItems.map((item, idx) => 
+                textWithIndentSymbol(t(item), ' - ', idx)
+              )}
+            </p>
           </div>
         </div>
         <div className="flex-1 flex flex-col">

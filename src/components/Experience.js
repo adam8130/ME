@@ -56,7 +56,7 @@ export default function Experience() {
           <span className="text-main mr-2">Introduce</span>
           <span>Experience</span>
         </motion.div>
-        <div className="w-full p-[10px] tracking-[2px]">
+        <div className="w-full p-[10px] tracking-[0.8px] md:tracking-[2px] text-[13px] md:text-[16px]">
           {breakLinedText(t('experince.introduce'))}
         </div>
       </div>
