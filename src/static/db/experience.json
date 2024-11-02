@@ -2,28 +2,12 @@
     "experience": [
         {
             "title": "",
-            "company": "寶沛靴",
-            "date": "2022 / 06",
-            "period": "(6個月)",
-            "description": "負責公司網站前端開發，並協助後端串接API。"
-        },
-        {
-            "title": "",
             "company": "文心醫美診所",
             "date": "2023 / 02",
             "period": "(接案)",
             "description": "負責公司網站前端開發，並協助後端串接API。",
             "product": "https://beautyup.com.tw/index.php",
             "productName": "文心極致美型"
-        },
-        {
-            "title": "Intern",
-            "company": "奇策智能",
-            "date": "2023 / 05",
-            "period": "(3個月)",
-            "description": "負責公司網站前端開發，並協助後端串接API。",
-            "product": "https://crypto-arsenal.io/zh-TW",
-            "productName": "Crypto Arsenal"
         },
         {
             "title": "",
@@ -35,7 +19,34 @@
             "productName": "Spfloe"
         },
         {
-            "title": "副組長",
+            "title": "",
+            "company": "盈式工作室",
+            "date": "2024 / 09",
+            "period": "(接案)",
+            "description": "負責公司網站前端開發，並協助後端串接API。",
+            "product": "https://www.twtm.com.tw/enews/twtm_ai_report.html",
+            "productName": "台灣技術交易網"
+        },
+        {
+            "title": "",
+            "company": "Brady工作室",
+            "date": "2023 / 08",
+            "period": "(接案)",
+            "description": "負責公司網站前端開發，並協助後端串接API。",
+            "product": "https://www.fubonbravesonlineshop.com/",
+            "productName": "Braves"
+        },
+        {
+            "title": "(Intern)",
+            "company": "奇策智能",
+            "date": "2023 / 05",
+            "period": "(3個月)",
+            "description": "負責公司網站前端開發，並協助後端串接API。",
+            "product": "https://crypto-arsenal.io/zh-TW",
+            "productName": "Crypto Arsenal"
+        },
+        {
+            "title": "(副組長)",
             "company": "禾宥",
             "date": "2023 / 10",
             "period": "至今",

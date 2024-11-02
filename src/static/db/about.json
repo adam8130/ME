@@ -1,12 +1,13 @@
 {
     "name": "Adam Chen",
     "title": "Front-end Developer",
+    "linkedin": "https://www.linkedin.com/in/alan-chen-b5b41b221",
     "email": "zzdx12345@gmail.com",
     "phone": "+886972292785",
     "github": "https://github.com/adam8130",
     "info": { 
-        "Age": "26",
-        "Area": "New Taipei",
+        "Age": "27",
+        "Experence": "2years+",
         "Job": "Remote work accepted",
         "Contact": "10AMto10PM"
     }

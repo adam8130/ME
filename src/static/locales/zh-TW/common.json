@@ -11,33 +11,35 @@
     "about": {
         "me": "Hi 我是 Adam。",
         "field": [
-            " - 前端領域主要使用 React、NextJS、TypeScript 來構建應用程序。",
-            " - 後端主要以 Node.JS、Express、GraphQL 來實現基本的應用部署、處理、返回請求。",
-            " - 有多人合作, 全遠端, 開發大型專案經驗，能獨立完成開發工作。",
-            " - 配合UI設計師，後端工程師，依照Figma、Api規格實作頁面。"
+            " - 前端主要使用 React、NextJS 來構建應用程序。",
+            " - 另外也會使用 Vue3、Nuxt3、NodeJS、TypeScript。",
+            " - 理解與實作過後端 Nginx、DNS、RestfulAPI、佈署應用等。",
+            " - 開發過Web3區塊鏈應用 EthersJs、Web3Js、質押等。",
+            " - 參與專案優化、Service-worker 等。"
         ]  
     },
-    "skills": {
-        "introduce": "我主要使用 React、NextJS、NodeJS、TypeScript 等技術來構建網頁應用程序。熟悉理解及會使用Node做後端，完成前後端的串連。實作過多個專案包括官網前台, 後台, 區塊練市集交易等專案。"
-    },
     "experince": {
-        "introduce": "在前團隊中都是使用 React、NextJS、Typescript 等前端技術。在團隊開發中我熟悉 Scrum Flow。 - 在寶沛靴期間維護布布童鞋及工作鞋官網。 - 在文心診所為長期接案，主要維護文心極致美型官網以及功能改版等。 - 在奇策智能期間為Crypto-Arsenal交易策略平台的開發及維護。 - 在禾宥期間負責Rise-of-elves區塊練遊戲官網, 後台的開發及維護。"
+        "introduce": "使用 React、Vue3、NextJS、Nuxt3、Typescript 等現代前端框架開發。在團隊開發中我熟悉 Scrum Flow。 - 在接案中做原生HTML並融合些現代技術開發等。 - 在公司中開發及維護主要產品及其生態等。 - 有多個大型專案及與業主、合作者溝通等經驗。 - 熟悉Git、Gitlab、CI-CD、Code-Review等。 - 在禾宥期間學習管理前端團隊經驗 (4人左右)。"
     },
     "Taiwan": "台灣",
     "New Taipei": "新北市",
     "Age": "年齡",
-    "Job": "工作",
-    "Remote work accepted": "可遠端",
+    "Experence": "經驗",
+    "Job": "工作意願",
+    "Remote work accepted": "遠端、兼職、案件計酬",
     "Contact": "聯絡時間",
     "10AMto10PM": "10AM - 10PM",
     "Area": "地區",
     "Address": "地址",
     "Front-end": "前端",
+    "State-management": "狀態管理",
     "Framework": "前端框架",
     "Library": "Library",
     "React Library": "Reacct Library",
     "Back-end": "後端",
     "Else": "其他",
+    "2years+": "2年以上",
+    "3years+": "3年以上",
     "Click here to change language": "這裡可以切換語言",
     "Click here to watch automatic slide show": "這裡可以播放自動投影片",
     "portfolio": {

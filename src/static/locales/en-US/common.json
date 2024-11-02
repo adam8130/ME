@@ -17,9 +17,6 @@
             " - Collaborate with UI designers and backend developers, translating Figma designs into web pages and integrating them with specified APIs."
         ]
     },
-    "skills": {
-        "introduce": "I am a developer with a preference for Functional Programming. I enjoy using technologies such as React, NextJS, TypeScript, and GraphQL to build modular and scalable web applications. I love solving problems through coding and hope to learn more in my job, applying what I've learned to my work, and thereby enhancing my capabilities."
-    },
     "experince": {
         "introduce": "I mainly use React, and Next.js in my past experiences. Within the team, I'm familiar with the Scrum Flow, and I've hands-on experience with tools like Git Flow and Code Reviews. While I still have more to learn in the frontend domain, I can confidently handle solo projects and am eager to learn from both the company and my seniors. I look forward to contributing more in my next role and crafting better applications.",
         "fields": [
@@ -29,6 +26,7 @@
     "Taiwan": "Taiwan",
     "New Taipei": "New Taipei",
     "Age": "Age",
+    "Experence": "Experience",
     "Job": "Job",
     "Remote work accepted": "Remote work accepted",
     "Contact": "Contact",
@@ -36,11 +34,14 @@
     "Area": "Area",
     "Address": "Address",
     "Front-end": "Front-end",
+    "State-management": "State-management",
     "Framework": "Framework",
     "Library": "Library",
     "React Library": "React Library",
     "Back-end": "Back-end",
     "Else": "Else",
+    "2years+": "2 years +",
+    "3years+": "3 years +",
     "Click here to change language": "Click here to change language",
     "Click here to watch automatic slide show": "這裡可以觀賞自動投影片",
     "portfolio": {
