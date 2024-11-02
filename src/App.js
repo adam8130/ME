@@ -22,12 +22,12 @@ export default function App() {
   return (
     <div
       className={`
-        w-screen
-        h-screen
+        w-[100vw]
+        h-[100svh]
         flex
         relative
         bg-gradient-to-br from-[rgb(48,168,163)] to-[rgb(16,204,128)]
-        p-[10px_10px_80px_10px]
+        p-[10px]
         md:p-[40px_40px]
         gap-[10px]
         overflow-hidden

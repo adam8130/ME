@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Code, Github, Mail, Phone } from 'lucide-react';
+import { Code, Github, Linkedin, Mail, Phone } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { breakLinedText, textWithIndentSymbol } from '../lib/formatText';
 import db from '../static/db/about';
@@ -54,6 +54,13 @@ export default function About() {
             onClick={() => window.open(db.github, '_blank')}
           >
             <Github />
+          </motion.div>
+          <motion.div
+            className="cursor-pointer rounded-[50%] p-[10px]"
+            whileHover={{ scale: 1.1, boxShadow: '0px 0px 8px #60c6db', transition: { duration: 0.1 } }}
+            onClick={() => window.open(db.linkedin, '_blank')}
+          >
+            <Linkedin />
           </motion.div>
           <motion.div
             className="cursor-pointer rounded-[50%] p-[10px]"
@@ -142,12 +149,6 @@ export default function About() {
                   href={`mailto:${db.email}`}
                 >
                   Send me an email
-                </a>
-                <a 
-                  className="border border-solid border-gray-400 rounded-lg text-center p-[5px]" 
-                  href={`tel:${db.phone}`}
-                >
-                  Give me a phonecall
                 </a>
               </div>
             </div>

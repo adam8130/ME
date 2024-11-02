@@ -1,6 +1,5 @@
 import { motion } from "framer-motion"
 import { useTranslation } from 'react-i18next'
-import { breakLinedText } from "../lib/formatText";
 import db from '../static/db/skills.json'
 
 export default function Skills() {
@@ -14,7 +13,7 @@ export default function Skills() {
         rounded-lg overflow-y-auto
       `}
     >
-      <div className="md:h-1/2">
+      <div className="md:h-[60%]">
         <motion.div
           className="p-[10px] text-[28px] border-b"
           initial={{ opacity: 0, x: '-40px' }}
@@ -42,30 +41,27 @@ export default function Skills() {
           )}
         </div>
       </div>
-      <div className="md:h-1/2 flex flex-col">
+      <div className="md:h-[40%] flex flex-col">
         <motion.div
           className="p-[10px] text-[28px] border-b"
           initial={{ opacity: 0, x: '-40px' }}
           animate={{ opacity: 1, x: '0' }}
           transition={{ delay: 0.3 }}
         >
-          <span className="text-main mr-2">Introduce</span>
-          <span>Skills</span>
+          <span className="text-main mr-2">Skills</span>
+          <span>Badges</span>
         </motion.div>
         <div className="w-full h-full p-[10px] flex flex-wrap">
-          <div className="w-full md:w-1/2 p-[10px] md:border-r tracking-[2px]">
-            {breakLinedText(t('skills.introduce'))}
-          </div>
-          <div className="w-full md:w-1/2 p-[10px] flex flex-wrap justify-around">
+          <div className="w-full h-full p-[10px] flex flex-wrap content-start gap-2">
             {db.badges.map((badge, idx) =>
               <img
                 key={idx}
                 src={badge}
                 alt="tech-badge"
                 className={`
-                  h-[25%]
-                  sm:h-[15%]
-                  sm:m-[5px]
+                  h-[25px]
+                  md:h-[20%]
+                  lg:h-[22%]
                 `}
               />
             )}
