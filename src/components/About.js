@@ -5,7 +5,6 @@ import { breakLinedText, textWithIndentSymbol } from '../lib/formatText';
 import db from '../static/db/about';
 
 export default function About() {
-
   const { t } = useTranslation();
   const fieldItems = t('about.field', { returnObjects: true });
 
@@ -101,10 +100,10 @@ export default function About() {
             <span className="text-main mr-2">About</span>
             <span>Me</span>
           </motion.div>
-          <div className="p-[10px] font-light tracking-[1px]">
+          <div className="p-[10px] font-light tracking-[0.8px] md:tracking-[1px]">
             <div className="flex justify-around mt-[10px] mb-[20px]">
               <img
-                className="h-[40vw] md:hidden"
+                className="h-[45vw] md:h-[40vw] md:hidden"
                 src={require('../static/images/Me.jpg')}
                 alt=''
               />
